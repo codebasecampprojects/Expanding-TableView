@@ -14,6 +14,10 @@
 		E2FEE3A51DF430CA00043788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FEE3A31DF430CA00043788 /* LaunchScreen.storyboard */; };
 		E2FEE3B01DF430CB00043788 /* ExpandingTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEE3AF1DF430CB00043788 /* ExpandingTableViewTests.swift */; };
 		E2FEE3BB1DF430CB00043788 /* ExpandingTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEE3BA1DF430CB00043788 /* ExpandingTableViewUITests.swift */; };
+		E2FEE3C91DF4412600043788 /* DefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEE3C81DF4412600043788 /* DefaultCell.swift */; };
+		E2FEE3CB1DF4412F00043788 /* ExpansionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEE3CA1DF4412F00043788 /* ExpansionCell.swift */; };
+		E2FEE3CD1DF4416300043788 /* ExpandingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEE3CC1DF4416300043788 /* ExpandingTVC.swift */; };
+		E2FEE3D11DF481FD00043788 /* DestinationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FEE3D01DF481FD00043788 /* DestinationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E2FEE3B61DF430CB00043788 /* ExpandingTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandingTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FEE3BA1DF430CB00043788 /* ExpandingTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingTableViewUITests.swift; sourceTree = "<group>"; };
 		E2FEE3BC1DF430CB00043788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FEE3C81DF4412600043788 /* DefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCell.swift; sourceTree = "<group>"; };
+		E2FEE3CA1DF4412F00043788 /* ExpansionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionCell.swift; sourceTree = "<group>"; };
+		E2FEE3CC1DF4416300043788 /* ExpandingTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandingTVC.swift; sourceTree = "<group>"; };
+		E2FEE3D01DF481FD00043788 /* DestinationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		E2FEE3991DF430CA00043788 /* ExpandingTableView */ = {
 			isa = PBXGroup;
 			children = (
+				E2FEE3C81DF4412600043788 /* DefaultCell.swift */,
+				E2FEE3D01DF481FD00043788 /* DestinationData.swift */,
+				E2FEE3CA1DF4412F00043788 /* ExpansionCell.swift */,
+				E2FEE3CC1DF4416300043788 /* ExpandingTVC.swift */,
 				E2FEE39A1DF430CA00043788 /* AppDelegate.swift */,
 				E2FEE39C1DF430CA00043788 /* ViewController.swift */,
 				E2FEE39E1DF430CA00043788 /* Main.storyboard */,
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					E2FEE3961DF430C900043788 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QMLGK74X2D;
 						ProvisioningStyle = Automatic;
 					};
 					E2FEE3AA1DF430CB00043788 = {
@@ -259,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FEE3CD1DF4416300043788 /* ExpandingTVC.swift in Sources */,
 				E2FEE39D1DF430CA00043788 /* ViewController.swift in Sources */,
+				E2FEE3C91DF4412600043788 /* DefaultCell.swift in Sources */,
 				E2FEE39B1DF430CA00043788 /* AppDelegate.swift in Sources */,
+				E2FEE3D11DF481FD00043788 /* DestinationData.swift in Sources */,
+				E2FEE3CB1DF4412F00043788 /* ExpansionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QMLGK74X2D;
 				INFOPLIST_FILE = ExpandingTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codebasecamp.ExpandingTableView;
@@ -424,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QMLGK74X2D;
 				INFOPLIST_FILE = ExpandingTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = codebasecamp.ExpandingTableView;
@@ -505,6 +524,7 @@
 				E2FEE3C11DF430CB00043788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2FEE3C21DF430CB00043788 /* Build configuration list for PBXNativeTarget "ExpandingTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +533,7 @@
 				E2FEE3C41DF430CB00043788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2FEE3C51DF430CB00043788 /* Build configuration list for PBXNativeTarget "ExpandingTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +542,7 @@
 				E2FEE3C71DF430CB00043788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
