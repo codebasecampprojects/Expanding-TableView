@@ -1,6 +1,6 @@
 # Expanding-TableView
 
-![Tutorial Link](http://imgur.com/O3FZIFd.gif)
+![Tutorial Link](http://imgur.com/O3FZIFd)
 
 An TableView example with expandable cells.
 
