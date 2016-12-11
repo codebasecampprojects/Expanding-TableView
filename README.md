@@ -1,6 +1,6 @@
 # Expanding-TableView
 
-<iframe src='https://gfycat.com/ifr/MadeupShortFirefly' frameborder='0' scrolling='no' width='320' height='570' allowfullscreen></iframe>
+![Tutorial Link](http://imgur.com/O3FZIFd.gif)
 
 An TableView example with expandable cells.
 
